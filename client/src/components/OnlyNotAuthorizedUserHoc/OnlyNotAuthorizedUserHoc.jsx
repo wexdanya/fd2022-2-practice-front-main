@@ -8,7 +8,6 @@ const OnlyNotAuthorizedUserHoc = Component => {
     componentDidMount () {
       this.props.checkAuth(this.props.history.replace);
     }
-
     render () {
       if (this.props.isFetching) {
         return <Spinner mtop />;
