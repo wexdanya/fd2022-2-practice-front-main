@@ -1,17 +1,20 @@
 [
   {
+    "id":1,
     "imgPath": "more-benifits-world-icon.png",
     "imageAlt": "globe",
     "title": "Largest Naming Community",
     "content": "Our unique approach allows you to receive an unmatched breadth of business name ideas from world's largest community of namingexperts. With 75,000+ creatives and 15,000+ successful naming projects, Squadhelp is by far the largest naming platform across the globe."
   },
   {
+    "id":2,
     "imgPath": "more-benifits-high-quality-icon.png",
     "imageAlt": "desktop",
     "title": "High Quality & Collaboration",
     "content": "Using an advanced Quality Scoring Algorithm and Machine Learning, we ensure that you receive more ideas from our top-quality creatives, and Gamification best practices ensure two-way communication throughout your contest."
   },
   {
+    "id":3,
     "imgPath": "more-benifits-trademark-icon.png",
     "imageAlt": "cards",
     "title": "Agency-Level Features",

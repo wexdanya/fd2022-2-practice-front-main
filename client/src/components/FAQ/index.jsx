@@ -16,15 +16,15 @@ const FAQ = () => {
         return setActive((prew) => [...prew.filter((el) => el !== id)]);
       }
     };
-    const classNames = cx(styles.faq,{[styles.active]:active.includes(id)});
+    const classNames = cx(styles.faq, { [styles.active]: active.includes(id) });
     return (
       <article className={classNames} key={id} id={id} onClick={handleClick}>
         <h3 className={styles.faqTitle} id={id}>
           {title}
         </h3>
         {articles.map((article) => (
-          <p className={styles.faqDescription} id={id}>
-            {article}
+          <p className={styles.faqDescription} key={article.id} id={id}>
+            {article.text}
           </p>
         ))}
       </article>

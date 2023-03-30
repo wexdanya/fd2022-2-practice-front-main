@@ -2,15 +2,13 @@ import React from 'react';
 import CONSTANTS from '../../constants';
 import styles from './Advantage.module.sass';
 import advantages from './advantage.json';
+const { STATIC_IMAGES_PATH } = CONSTANTS;
 const Advantage = () => {
-  const renderAdvantes = (card) => (
-    <article className={styles.card}>
-      <img
-        src={`${CONSTANTS.STATIC_IMAGES_PATH}${card.imgPath}`}
-        alt={`${card.imgPath}`}
-      />
-      <h3>{card.title}</h3>
-      <p>{card.content}</p>
+  const renderAdvantes = ({ id, imgPath, title, content }) => (
+    <article className={styles.card} key={id}>
+      <img src={`${STATIC_IMAGES_PATH}${imgPath}`} alt={`${imgPath}`} />
+      <h3>{title}</h3>
+      <p>{content}</p>
     </article>
   );
   return (

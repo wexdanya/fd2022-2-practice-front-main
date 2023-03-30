@@ -7,7 +7,7 @@ import SlideBar from '../../components/SlideBar/SlideBar';
 import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
-import Spinner from '../../components/Spinner/Spinner';
+import Spinner from '../../components/Spinner';
 import Advantage from './../../components/Advantage/index';
 import LargestColection from '../../components/ColectionsNames';
 import FAQ from './../../components/FAQ/index';
