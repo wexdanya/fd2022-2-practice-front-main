@@ -8,7 +8,7 @@ import {
   changeChatBlock,
   changeShowAddChatToCatalogMenu,
 } from '../../../../store/slices/chatSlice';
-import DialogBox from '../DialogBox/DialogBox';
+import DialogBox from '../DialogBox';
 import styles from './DialogList.module.sass';
 
 const DialogList = props => {

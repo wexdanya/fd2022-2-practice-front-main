@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { updateBundle } from '../../store/slices/bundleSlice';
-import BundleBox from '../../components/BundleBox/BundleBox';
+import BundleBox from '../../components/BundleBox';
 import CONSTANTS from '../../constants';
 import styles from './StartContestPage.module.sass';
-import Footer from '../../components/Footer/Footer';
-import ProgressBar from '../../components/ProgressBar/ProgressBar';
+import Footer from '../../components/Footer';
+import ProgressBar from '../../components/ProgressBar';
 import Header from '../../components/Header';
 
 const StartContestPage = props => {

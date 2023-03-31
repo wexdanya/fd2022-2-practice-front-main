@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Catalog from '../Catalog/Catalog';
+import Catalog from '../Catalog';
 import styles from '../CatalogListContainer/CatalogListContainer.module.sass';
 import {
   changeShowModeCatalog,

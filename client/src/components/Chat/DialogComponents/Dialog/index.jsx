@@ -6,9 +6,9 @@ import {
   getDialogMessages,
   clearMessageList,
 } from '../../../../store/slices/chatSlice';
-import ChatHeader from '../../ChatComponents/ChatHeader/ChatHeader';
+import ChatHeader from '../../ChatComponents/ChatHeader';
 import styles from './Dialog.module.sass';
-import ChatInput from '../../ChatComponents/ChatInut/ChatInput';
+import ChatInput from '../../ChatComponents/ChatInut';
 
 class Dialog extends React.Component {
   componentDidMount () {

@@ -3,10 +3,10 @@ import { Form, Formik } from 'formik';
 import { connect } from 'react-redux';
 import { clearUserError } from '../../store/slices/userSlice';
 import styles from './UpdateUserInfoForm.module.sass';
-import ImageUpload from '../InputComponents/ImageUpload/ImageUpload';
-import FormInput from './../forms/FormInput/FormInput';
+import ImageUpload from '../InputComponents/ImageUpload';
+import FormInput from '../forms/FormInput';
 import Schems from '../../utils/validators/validationSchems';
-import Error from '../Error/Error';
+import Error from '../Error';
 
 const UpdateUserInfoForm = props => {
   const { onSubmit, submitting, error, clearUserError } = props;

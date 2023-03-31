@@ -2,11 +2,12 @@ import React, { useRef } from 'react';
 import { connect } from 'react-redux';
 import styles from './ContestCreationPage.module.sass';
 import { saveContestToStore } from '../../store/slices/contestCreationSlice';
-import NextButton from '../../components/NextButton/NextButton';
-import ContestForm from '../../components/forms/ContestForm/ContestForm';
-import BackButton from '../../components/BackButton/BackButton';
-import ProgressBar from '../../components/ProgressBar/ProgressBar';
-import Footer from '../../components/Footer/Footer';
+
+import NextButton from '../../components/NextButton';
+import ContestForm from '../../components/forms/ContestForm';
+import BackButton from '../../components/BackButton';
+import ProgressBar from '../../components/ProgressBar';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
 const ContestCreationPage = props => {

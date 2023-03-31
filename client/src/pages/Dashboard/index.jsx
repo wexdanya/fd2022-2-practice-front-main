@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import CONSTANTS from '../../constants';
-import CustomerDashboard from '../../components/CustomerDashboard/CustomerDashboard';
-import CreatorDashboard from '../../components/CreatorDashboard/CreatorDashboard';
+import CustomerDashboard from '../../components/CustomerDashboard';
+import CreatorDashboard from '../../components/CreatorDashboard';
 import Header from '../../components/Header';
 
 const Dashboard = props => {

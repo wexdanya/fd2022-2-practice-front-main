@@ -4,8 +4,8 @@ import {
   getCatalogList,
   removeChatFromCatalog,
 } from '../../../../store/slices/chatSlice';
-import CatalogList from '../CatalogList/CatalogList';
-import DialogList from '../../DialogComponents/DialogList/DialogList';
+import CatalogList from '../CatalogList';
+import DialogList from '../../DialogComponents/DialogList';
 
 class CatalogListContainer extends React.Component {
   componentDidMount () {

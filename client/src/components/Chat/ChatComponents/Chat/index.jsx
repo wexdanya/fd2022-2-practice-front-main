@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
-import DialogListContainer from '../../DialogComponents/DialogListContainer/DialogListContainer';
+import DialogListContainer from '../../DialogComponents/DialogListContainer';
 import styles from './Chat.module.sass';
-import Dialog from '../../DialogComponents/Dialog/Dialog';
+import Dialog from '../../DialogComponents/Dialog';
 import {
   changeChatShow,
   setPreviewChatMode,
@@ -13,10 +13,10 @@ import {
 } from '../../../../store/slices/chatSlice';
 import { chatController } from '../../../../api/ws/socketController';
 import CONSTANTS from '../../../../constants';
-import CatalogListContainer from '../../CatalogComponents/CatalogListContainer/CatalogListContainer';
-import CatalogCreation from '../../CatalogComponents/CatalogCreation/CatalogCreation';
-import CatalogListHeader from '../../CatalogComponents/CatalogListHeader/CatalogListHeader';
-import ChatError from '../../../ChatError/ChatError';
+import CatalogListContainer from '../../CatalogComponents/CatalogListContainer';
+import CatalogCreation from '../../CatalogComponents/CatalogCreation';
+import CatalogListHeader from '../../CatalogComponents/CatalogListHeader';
+import ChatError from '../../../ChatError';
 
 class Chat extends React.Component {
   componentDidMount () {
